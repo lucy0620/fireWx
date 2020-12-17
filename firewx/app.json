@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/category",
+    "pages/curt/curt",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#11998e",
+    "navigationBarTitleText": "萤火商城",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"./source/主页.png",
+        "selectedIconPath":"./source/主页2.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath":"./source/分类.png",
+        "selectedIconPath":"./source/分类2.png"
+      },
+      {
+        "pagePath": "pages/curt/curt",
+        "text": "购物车",
+        "iconPath":"./source/购物车.png",
+        "selectedIconPath":"./source/购物车2.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath":"./source/用户.png",
+        "selectedIconPath":"./source/用户2.png"
+      }
+    ],
+    "color":"#707070",
+    "selectedColor":"#11998e"
+  }
+}
